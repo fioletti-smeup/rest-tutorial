@@ -1,26 +1,26 @@
-#WS Rest Tutorial
+# WS Rest Tutorial
 
 
 Chiamata con post
 
 ```
-curl -d "name=Quinto" -X POST http://localhost:8080/mininal-ws-provider-rest/hello
+curl -d "name=Quinto" -X POST http://localhost:8080/rest-tutorial/hello
 ```
 
 Chiamata con get
 
 ```
-curl http://localhost:8080/mininal-ws-provider-rest/helloWorld
+curl http://localhost:8080/rest-tutorial/helloWorld
 ```
 
 Chiamata con get e parametro nella url
 
 ```
-curl http://localhost:8080/mininal-ws-provider-rest/hello/Quinto
+curl http://localhost:8080/rest-tutorial/hello/Quinto
 ```
 
 Chiamata con get e parametro nella query
 
 ```
-curl http://localhost:8080/mininal-ws-provider-rest/hello/Quinto?name=Quinto
+curl http://localhost:8080/rest-tutorial/hello/Quinto?name=Quinto
 ```

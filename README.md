@@ -24,3 +24,9 @@ Chiamata con get e parametro nella query
 ```
 curl http://localhost:8080/rest-tutorial/hello/Quinto?name=Quinto
 ```
+
+Ricerca contatti
+
+```
+curl http://localhost:8080/rest-tutorial/contacts?desc=Boselli
+```

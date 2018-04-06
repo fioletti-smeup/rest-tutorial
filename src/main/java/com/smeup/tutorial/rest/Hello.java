@@ -28,13 +28,13 @@ public class Hello {
     @GET
     public String queryParamHello(@QueryParam("name") final String name) {
 
-        return "Hello, guy " + name + "!";
+        return "Hello, " + name + "!";
     }
 
     @Path("hello")
     @POST
     public String postHello(@FormParam("name") final String name) {
 
-        return "Hello, guy " + name + "!";
+        return "Hello, " + name + "!";
     }
 }

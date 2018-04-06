@@ -12,7 +12,8 @@ public class TutorialApplication extends javax.ws.rs.core.Application {
     public Set<Class<?>> getClasses() {
         final Set<Class<?>> s = new HashSet<>();
         s.add(Hello.class);
-        s.add(ContactsSearch.class);
+        s.add(Contacts.class);
+        s.add(NotFoundExceptionMapper.class);
         return s;
     }
 }

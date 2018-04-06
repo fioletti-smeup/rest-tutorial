@@ -6,7 +6,7 @@ import java.util.Set;
 import javax.ws.rs.ApplicationPath;
 
 @ApplicationPath("")
-public class MinimalApplication extends javax.ws.rs.core.Application {
+public class TutorialApplication extends javax.ws.rs.core.Application {
 
     @Override
     public Set<Class<?>> getClasses() {
